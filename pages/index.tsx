@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Logo from '../assets/sun.svg';
 
 export default function Home() {
   return (
@@ -9,7 +8,6 @@ export default function Home() {
       </Head>
 
       <main>
-        <Logo />
         <h1>Hello World</h1>
       </main>
     </div>
